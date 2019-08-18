@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+
+    <!-- Base application theme. -->
+
+
+
+    <style parent="Theme.AppCompat.Light.NoActionBar" name="AppTheme">
+
+    <!-- Customize your theme here. -->
+
+
+       <item name="colorPrimary">@color/colorPrimary</item>
+
+       <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+       <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style parent="AppTheme" name="aboutDev">
+
+        <item name="colorPrimaryDark">#1bbc9b</item>
+
+        <item name="colorPrimary">#1bbc9b</item>
+
+     </style>
+
+
+    <style parent="Theme.AppCompat.Light" name="PrimaryFlatButton">
+
+          <item name="android:buttonStyle"> @style/Widget.AppCompat.Button.Borderless.Colored </item>
+
+           <item name="colorAccent">#FFAB40</item>
+
+    </style>
+
+</resources>

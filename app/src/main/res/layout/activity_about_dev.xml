@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".about_dev"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="45px"
+        android:background="#1bbc9b">
+
+    <ImageView android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/aman"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="100px"
+        android:layout_width="match_parent"
+        android:background="#1bbc9b"
+        android:gravity="center_horizontal">
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/github"
+        android:id="@+id/github"/>
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/linkedin"
+        android:id="@+id/linkedin"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"/>
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/stackoverflow"
+        android:id="@+id/stackoverflow"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000" android:text="About : "
+        android:layout_margin="10dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#555"
+        android:text="@string/aboutDevText"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+    <resources>
+
+    <string name="app_name">MyNewsApp</string>
+
+    <string name="aboutDevText">Hello World!! :D\n \nYou can Find me on GitHub,
+        LinkedIn and StackOverflow. \nDo check my other projects and Follow me.\n \n
+        Just Trying to implement whatever I learn and make a tinny dent in the universe.
+    </string>
+
+    </resources>
